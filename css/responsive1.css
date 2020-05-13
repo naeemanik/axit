@@ -1,0 +1,135 @@
+
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .feature1 img {
+        width: 115%;
+        margin-top: 50px;
+    }
+    .banner .banner-area {
+        padding-right: 0; 
+    }
+    .banner .input-head {
+        width: 100%;
+        margin-top: 30%;
+    }
+    .banner .input {
+        width: 100%;
+    }
+    .banner .btn-submit {
+        width: 100%;
+    }
+    .social-media .fa {
+        font-size: 35px;
+        padding: 25px 10px;
+    }
+    .feature1 .feature1-btn {
+        width: 32%;
+    }
+    .process .process-item h2 {
+        font-size: 24px;
+    }
+    .person-details .person-desciption {
+        font-size: 13px;
+        padding-right: 5%;
+    }
+    .person-name {
+        margin-left: 20px;
+    }
+    .person-designation {
+        margin-left: 20px;
+    }
+    .custom .custom-area p {
+        font-size: 15px;
+    }
+    .contact form .contact-btn {
+        width: 20%;
+    }
+    
+  }
+  
+ 
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .feature1 img {
+        display: none;
+    }
+    .banner .banner-area {
+        padding-right: 0; 
+    }
+    .banner .input-head {
+        width: 100%;
+    }
+    .banner .input {
+        width: 100%;
+    }
+    .banner .btn-submit {
+        width: 100%;
+    }
+    .social-media .fa {
+        font-size: 38px;
+        padding: 15px 13px;
+    }
+    .person-details .person-desciption {
+        padding-right: 45%;
+    }
+    .contact form .contact-btn {
+        width: 30%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .feature1 img {
+        display: none;
+    }
+    .banner .banner-area {
+        padding-right: 0; 
+    }
+    .banner .input-head {
+        width: 100%;
+    }
+    .banner .input {
+        width: 100%;
+    }
+    .banner .btn-submit {
+        width: 100%;
+    }
+    .social-media .fa {
+        font-size: 40px;
+        padding: 18px 12px;
+    }
+    .person-details .person-desciption {
+        padding-right: 46%;
+        font-size: 12px;
+    }
+    .contact form .contact-btn {
+        width: 30%;
+    }
+  }

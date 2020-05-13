@@ -1,0 +1,183 @@
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {  }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .social-media .fa {
+        padding: 18px 17px;
+    }
+ }
+
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner .banner-area{
+        padding: 0;
+    }
+    .banner .banner-area h2{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .banner .input-head,.banner .input,.banner .btn-submit{
+        width: 90%;
+    }
+    .social-media .fa{
+        padding: 30px 10px;
+        font-size: 30px;
+    }
+    .feature1 img {
+        margin-top: 45%;
+    }
+    .process .process-item h2 {
+        font-size: 22px;
+    }
+    .person-details .person-desciption {
+        font-size: 12px;
+        padding-right: 0; 
+    }
+    .person-name {
+        margin-left: 20px;
+    }
+    .person-designation {
+        margin-left: 20px;
+    }
+    .custom .custom-area p {
+        font-size: 15px;
+    }
+    .contact form .contact-btn {
+        width: 18%;
+    }
+ }
+
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .banner .banner-area{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .divider-white{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .banner .banner-area h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .banner .input-head,.banner .input,.banner .btn-submit{
+        margin-right: 10%;
+    }
+    .social-media .fa{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .social-media h2,.social-media h2,.feature2 .feature2-area h2,.feature3 .feature3-area h2{
+        text-align: center;
+        font-size: 32px;
+    }
+    .flex-column {
+        flex-direction: row !important;
+        margin: 20px 20%;
+    }
+    .nav-pills .nav-link {
+        margin: 8px;
+    }
+    .feature1 img {
+        margin-top: 40px;
+    }
+    .feature2 .feature2-img,.divider-golden{
+        display: block;
+        margin: 0 auto;
+    }
+    .feature2 .feature2-area p,.feature3 .feature3-area p,.process .process-item h2{
+        padding: 0;
+        margin: 10px 0;
+    }
+    .person-details .person-desciption {
+        padding-right: 53%;
+    }
+    .person-designation {
+        margin-bottom: 40px;
+    }
+    .contact form .contact-btn {
+        width: 25%;
+    }
+ }
+
+ /*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .banner .banner-area{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .divider-white{
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .banner .banner-area h2 {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .banner .input-head,.banner .input,.banner .btn-submit{
+        margin-right: 10%;
+    }
+    .social-media .fa{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .social-media h2,.social-media h2,.feature2 .feature2-area h2,.feature3 .feature3-area h2{
+        text-align: center;
+    }
+    .flex-column {
+        flex-direction: row !important;
+        margin: 20px 22%;
+    }
+    .nav-pills .nav-link {
+        margin: 8px;
+    }
+    .feature1 img {
+        margin-top: 40px;
+    }
+    .feature2 .feature2-img,.divider-golden{
+        display: block;
+        margin: 0 auto;
+    }
+    .feature2 .feature2-area p,.feature3 .feature3-area p,.process .process-item h2{
+        padding: 0;
+        margin: 10px 0;
+    }
+    .testimonial .testimonial-area h2 {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+    .person-designation {
+        margin-bottom: 40px;
+    }
+    .person-details .person-desciption {
+        padding-right: 55%;
+    }
+  
+ }
+
+ @media (min-width: 319px) and (max-width: 574.98px){
+    .flex-column {
+        flex-direction: row !important;
+        margin: 20px 0;
+    }
+    .nav-pills .nav-link {
+        margin: 8px;
+    }
+    .feature1 img {
+        margin-top: 40px;
+    }
+    .person-details .person-desciption {
+        padding-right: 30%;
+    }
+ }
